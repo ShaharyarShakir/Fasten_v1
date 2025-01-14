@@ -199,7 +199,7 @@
             </i>
 
             <!-- Form Container (Does not change for desktop, adjusted for mobile/tablets only) -->
-            <div class="absolute top-[400px] pl-4  w-[330px] rounded-md  lg:w-[480px] flex flex-row items-start justify-start max-w-full z-[2] text-center
+            <div class="absolute top-[320px] pl-[22px] w-[300px] rounded-md  lg:w-[480px] flex flex-row items-start lg:justify-start max-w-full z-[2] text-center
     sm:left-[20px] sm:top-[500px] lg:left-[71px] lg:top-[449px]">
               <div
                 class="flex-1 rounded-md bg-neutral-100 border-silver-200 border-[1px] border-solid box-border flex flex-row items-start justify-between py-1.5 pl-[23px] pr-[9px] min-h-[66px] max-w-full gap-5">
@@ -219,14 +219,14 @@
 
             <!-- Description Text (remains the same, only adjusts on smaller screens) -->
             <div
-              class="absolute top-[140px] lg:top-[322px]  px-10 lg:left-[71px] text-lg leading-[28px] text-silver-100 inline-block lg:w-[546px] z-[2] w-[370px]">
+              class="absolute top-[120px] lg:top-[322px] px-2  lg:left-[71px] text-lg leading-[28px] text-silver-100 inline-block lg:w-[546px] z-[2] w-[320px]">
               Fasten Connect provides a unified API for accessing medical records from multiple institutions. Our
               platform lets developers build applications with access to patient health data in minutes.
             </div>
 
             <!-- Heading (adjusts for smaller screens but remains large on desktop) -->
             <h1
-              class="m-0 absolute top-[30px] pl-8 lg:top-[186px] lg:left-[71px] text-10xl lg:text-33xl lg:leading-[58px] font-semibold font-[inherit] text-neutral-100 inline-block w-[300px] lg:w-[537px] h-[100px] lg:h-[116px] z-[2]">
+              class="m-0 absolute top-[10px] px-8 lg:top-[186px] lg:left-[71px] text-10xl lg:text-33xl lg:leading-[58px] font-semibold font-[inherit] text-neutral-100 inline-block w-[320px] lg:w-[537px] h-[100px] lg:h-[116px] z-[2] ">
               <p class="m-0">A Unified Medical</p>
               <p class="m-0">Record API</p>
             </h1>
@@ -406,104 +406,101 @@
 
 
 
-    <section
-      class=" mt-24 self-stretch lg:h-[1043px] flex flex-col lg:flex-row items-center justify-center py-0 box-border max-w-full text-center text-33xl text-neutral-100 font-website-body-body-large-regular h-auto">
-      <div class="h-[1043px] w-[1380px] [backdrop-filter:blur(405px)] rounded-xl bg-gray-600 overflow-hidden shrink-0 flex flex-col items-start justify-start pt-[678px] px-[264px] pb-[443px] box-border relative gap-[78px]
-          lg:pt-[678px] lg:px-[264px] lg:pb-[443px] lg:gap-[78px] 
-          md:pt-[287px] md:px-[132px] md:pb-[187px] md:gap-[39px] 
-          sm:pt-[150px] sm:px-[30px] sm:pb-[100px] sm:gap-[20px]" style="margin-left: 2px;">
-        <!-- Background Image -->
-        <img class="absolute top-0 left-0 w-full h-full object-cover bg-[#08080A] opacity-80" alt="Background"
-          src="/public/image-2-12@2x.png" />
-
-        <div
-          class="mt-[-816.5px] w-[1141px] h-[738.5px] flex flex-row items-start justify-start pt-[230.5px] px-[68px] pb-[230px] box-border relative min-h-[739px] shrink-0 max-w-[134%] lg:pl-[34px] lg:pr-[34px] lg:box-border mq825:pt-[150px] mq825:pb-[149px] mq825:box-border">
-          <div class="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px]">
-            <img
-              class="hidden lg:block absolute top-[0px] left-[800px] w-[341px] h-[361.3px] object-contain mix-blend-color-dodge z-[1]"
-              loading="lazy" alt="" src="/public/group-299@2x.png" />
-            <img class="hidden lg:block absolute top-[344.5px] left-[0px] w-[853px] h-[394px] object-cover z-[2]" alt=""
-              src="/public/1234-1@2x.png" />
-          </div>
-          <h1 class="m-0 w-full max-w-[717px] relative text-inherit font-semibold font-[inherit] shrink-0 z-[1]
-           text-lg leading-[28px]       
-           sm:text-xl sm:leading-[32px]
-           md:text-2xl md:leading-[35px] 
-           lg:text-3xl lg:leading-[46px] 
-           xl:text-4xl xl:leading-[58px]">
-            Getting Started with Fasten Connect
-          </h1>
-
-        </div>
-
-        <div
-          class="ml-[-294px] flex flex-row items-start justify-start py-0 pl-[304px] pr-0 box-border gap-[7px] shrink-0 max-w-[134%] text-left text-lgi-1 text-mediumpurple lg:pl-[152px] lg:box-border mq450:pl-5 mq450:box-border mq825:pl-[76px] mq825:box-border mq1400:flex-wrap mq1400:justify-center">
+    <div class="hidden-on-mobile">
+      <section
+        class=" mt-24 self-stretch lg:h-[1043px] flex flex-col lg:flex-row items-center justify-center py-0 box-border max-w-full text-center text-33xl text-neutral-100 font-website-body-body-large-regular h-auto">
+        <div class="h-[1043px] w-[1380px] [backdrop-filter:blur(405px)] rounded-xl bg-gray-600 overflow-hidden shrink-0 flex flex-col items-start justify-start pt-[678px] px-[264px] pb-[443px] box-border relative gap-[78px]
+            lg:pt-[678px] lg:px-[264px] lg:pb-[443px] lg:gap-[78px]
+            md:pt-[287px] md:px-[132px] md:pb-[187px] md:gap-[39px]
+            sm:pt-[150px] sm:px-[30px] sm:pb-[100px] sm:gap-[20px]" style="margin-left: 2px;">
+          <!-- Background Image -->
+          <img class="absolute top-0 left-0 w-full h-full object-cover bg-[#08080A] opacity-80" alt="Background"
+            src="/public/image-2-12@2x.png" />
           <div
-            class="ml-[-348px] flex flex-col items-start justify-start pt-[121.7px] px-0 pb-0 box-border max-w-full mq825:pt-[79px] mq825:box-border mq1400:flex-1 mq1400:min-w-full">
-            <img
-              class="hidden lg:block w-[341px] relative max-h-full mix-blend-color-dodge shrink-0 z-[1] mq1400:self-stretch mq1400:w-auto"
-              alt="" src="/public/group-301.svg" />
+            class="mt-[-816.5px] w-[1141px] h-[738.5px] flex flex-row items-start justify-start pt-[230.5px] px-[68px] pb-[230px] box-border relative min-h-[739px] shrink-0 max-w-[134%] lg:pl-[34px] lg:pr-[34px] lg:box-border mq825:pt-[150px] mq825:pb-[149px] mq825:box-border">
+            <div class="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px]">
+              <img
+                class="hidden lg:block absolute top-[0px] left-[800px] w-[341px] h-[361.3px] object-contain mix-blend-color-dodge z-[1]"
+                loading="lazy" alt="" src="/public/group-299@2x.png" />
+              <img class="hidden lg:block absolute top-[344.5px] left-[0px] w-[853px] h-[394px] object-cover z-[2]" alt=""
+                src="/public/1234-1@2x.png" />
+            </div>
+            <h1 class="m-0 w-full max-w-[717px] relative text-inherit font-semibold font-[inherit] shrink-0 z-[1]
+             text-lg leading-[28px]
+             sm:text-xl sm:leading-[32px]
+             md:text-2xl md:leading-[35px]
+             lg:text-3xl lg:leading-[46px]
+             xl:text-4xl xl:leading-[58px]">
+              Getting Started with Fasten Connect
+            </h1>
           </div>
-
           <div
-            class="flex flex-col items-start justify-start gap-[74px] shrink-0 max-w-full lg:gap-[37px] mq450:gap-[18px] mq1400:flex-1 mq1400:min-w-full ml-36">
+            class="ml-[-294px] flex flex-row items-start justify-start py-0 pl-[304px] pr-0 box-border gap-[7px] shrink-0 max-w-[134%] text-left text-lgi-1 text-mediumpurple lg:pl-[152px] lg:box-border mq450:pl-5 mq450:box-border mq825:pl-[76px] mq825:box-border mq1400:flex-wrap mq1400:justify-center">
             <div
-              class="self-stretch flex-1 flex flex-col md:flex-row items-center justify-start gap-[110px] z-[1] lg:gap-[55px] lg:flex-wrap mq450:gap-[27px] translate-x-20">
+              class="ml-[-348px] flex flex-col items-start justify-start pt-[121.7px] px-0 pb-0 box-border max-w-full mq825:pt-[79px] mq825:box-border mq1400:flex-1 mq1400:min-w-full">
+              <img
+                class="hidden lg:block w-[341px] relative max-h-full mix-blend-color-dodge shrink-0 z-[1] mq1400:self-stretch mq1400:w-auto"
+                alt="" src="/public/group-301.svg" />
+            </div>
+            <div
+              class="flex flex-col items-start justify-start gap-[74px] shrink-0 max-w-full lg:gap-[37px] mq450:gap-[18px] mq1400:flex-1 mq1400:min-w-full ml-36">
               <div
-                class="self-stretch w-[204px] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-3.5">
+                class="self-stretch flex-1 flex flex-col md:flex-row items-center justify-start gap-[110px] z-[1] lg:gap-[55px] lg:flex-wrap mq450:gap-[27px] translate-x-20">
                 <div
-                  class="flex-1 rounded-xl-5 bg-lavender border-gray-1000 border-[0.3px] border-solid flex flex-col items-center justify-center py-2.5 px-2">
-                  <div class="relative leading-[19.1px] font-medium">01</div>
-                </div>
-                <div
-                  class="relative text-xl leading-[20px] font-medium text-neutral-100 mq450:text-base mq450:leading-[16px]">
-                  Sign Up for Fasten Connect</div>
-                <div class="relative text-base leading-[20px] font-light text-silver-100">Register on our Developer mode
-                  to
-                  get started.</div>
-              </div>
-              <div class="w-[204px] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-3.5">
-                <div
-                  class="rounded-xl-5 bg-lavender border-gray-1000 border-[0.3px] border-solid flex flex-col items-center justify-center py-2.5 px-2">
-                  <div class="relative leading-[19.1px] font-medium">02</div>
-                </div>
-                <div
-                  class="relative text-xl leading-[20px] font-medium text-neutral-100 inline-block min-w-[123px] mq450:text-base mq450:leading-[16px]">
-                  Get API Keys</div>
-                <div class="relative text-base leading-[20px] font-light text-silver-100">Access your credentials and
-                  connect
-                  to our endpoint directory.</div>
-              </div>
-              <div class="flex flex-row items-center justify-center flex-1">
-                <div class="flex-1 flex flex-col items-start justify-start gap-3.5">
+                  class="self-stretch w-[204px] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-3.5">
                   <div
-                    class="rounded-xl-5 bg-lavender border-gray-1000 border-[0.3px] border-solid flex flex-col items-center justify-center py-2.5 px-2">
-                    <div class="relative leading-[19.1px] font-medium">03</div>
+                    class="flex-1 rounded-xl-5 bg-lavender border-gray-1000 border-[0.3px] border-solid flex flex-col items-center justify-center py-2.5 px-2">
+                    <div class="relative leading-[19.1px] font-medium">01</div>
                   </div>
                   <div
                     class="relative text-xl leading-[20px] font-medium text-neutral-100 mq450:text-base mq450:leading-[16px]">
-                    Integrate Securely</div>
-                  <div class="w-[204px] relative text-base leading-[20px] font-light text-silver-100 flex items-center">
-                    Embed our iframe or code for fast, HIPAA-compliant data-sharing.
+                    Sign Up for Fasten Connect</div>
+                  <div class="relative text-base leading-[20px] font-light text-silver-100">Register on our Developer mode
+                    to
+                    get started.</div>
+                </div>
+                <div class="w-[204px] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-3.5">
+                  <div
+                    class="rounded-xl-5 bg-lavender border-gray-1000 border-[0.3px] border-solid flex flex-col items-center justify-center py-2.5 px-2">
+                    <div class="relative leading-[19.1px] font-medium">02</div>
+                  </div>
+                  <div
+                    class="relative text-xl leading-[20px] font-medium text-neutral-100 inline-block min-w-[123px] mq450:text-base mq450:leading-[16px]">
+                    Get API Keys</div>
+                  <div class="relative text-base leading-[20px] font-light text-silver-100">Access your credentials and
+                    connect
+                    to our endpoint directory.</div>
+                </div>
+                <div class="flex flex-row items-center justify-center flex-1">
+                  <div class="flex-1 flex flex-col items-start justify-start gap-3.5">
+                    <div
+                      class="rounded-xl-5 bg-lavender border-gray-1000 border-[0.3px] border-solid flex flex-col items-center justify-center py-2.5 px-2">
+                      <div class="relative leading-[19.1px] font-medium">03</div>
+                    </div>
+                    <div
+                      class="relative text-xl leading-[20px] font-medium text-neutral-100 mq450:text-base mq450:leading-[16px]">
+                      Integrate Securely</div>
+                    <div class="w-[204px] relative text-base leading-[20px] font-light text-silver-100 flex items-center">
+                      Embed our iframe or code for fast, HIPAA-compliant data-sharing.
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <button
-              class="cursor-pointer [border:none] py-0 bg-[transparent] self-stretch flex flex-row items-start justify-start mq450:pl-5 mq450:pr-5 mq450:box-border ml-80">
-              <div
-                class="rounded-md bg-mediumslateblue-200 flex flex-row items-center justify-center py-[10px] px-6 z-[1]">
+              <button
+                class="cursor-pointer [border:none] py-0 bg-[transparent] self-stretch flex flex-row items-start justify-start mq450:pl-5 mq450:pr-5 mq450:box-border ml-80">
                 <div
-                  class="relative text-base leading-[20px] font-medium font-website-body-body-large-regular text-neutral-100 text-center">
-                  Book Demo
+                  class="rounded-md bg-mediumslateblue-200 flex flex-row items-center justify-center py-[10px] px-6 z-[1]">
+                  <div
+                    class="relative text-base leading-[20px] font-medium font-website-body-body-large-regular text-neutral-100 text-center">
+                    Book Demo
+                  </div>
                 </div>
-              </div>
-            </button>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
 
 
