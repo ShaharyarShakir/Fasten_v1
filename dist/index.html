@@ -34,6 +34,12 @@
     line-height: 2rem;
   }
 }
+
+@media (width <= 768px) {
+  .hidden-on-mobile {
+    display: none;
+  }
+}
 </style>
 
 </head>
@@ -340,25 +346,25 @@
 
 
 
-    <section class=" mt-24 self-stretch h-[1043px] flex flex-col lg:flex-row items-center justify-center py-0 box-border max-w-full text-center text-33xl text-neutral-100 font-website-body-body-large-regular ">
+    <section class="mt-24 self-stretch h-[1043px] flex flex-col lg:flex-row items-center justify-center py-0 box-border max-w-full text-center text-33xl text-neutral-100 font-website-body-body-large-regular hidden-on-mobile">
       <div class="h-[1043px] w-[1380px] [backdrop-filter:blur(405px)] rounded-xl bg-gray-600 overflow-hidden shrink-0 flex flex-col items-start justify-start pt-[678px] px-[264px] pb-[443px] box-border relative gap-[78px]
-        lg:pt-[678px] lg:px-[264px] lg:pb-[443px] lg:gap-[78px] 
-        md:pt-[287px] md:px-[132px] md:pb-[187px] md:gap-[39px] 
-        sm:pt-[150px] sm:px-[30px] sm:pb-[100px] sm:gap-[20px]" style="margin-left: 2px">
+          lg:pt-[678px] lg:px-[264px] lg:pb-[443px] lg:gap-[78px] 
+          md:pt-[287px] md:px-[132px] md:pb-[187px] md:gap-[39px] 
+          sm:pt-[150px] sm:px-[30px] sm:pb-[100px] sm:gap-[20px]" style="margin-left: 2px">
         <!-- Background Image -->
         <img class="absolute top-0 left-0 w-full h-full object-cover bg-[#08080A] opacity-80" alt="Background" src="/image-2-12@2x.427e326e.png">
 
-        <div class="  mt-[-816.5px] w-[1141px] h-[738.5px] flex flex-row items-start justify-start pt-[230.5px] px-[68px] pb-[230px] box-border relative min-h-[739px] shrink-0 max-w-[134%] lg:pl-[34px] lg:pr-[34px] lg:box-border mq825:pt-[150px] mq825:pb-[149px] mq825:box-border">
+        <div class="mt-[-816.5px] w-[1141px] h-[738.5px] flex flex-row items-start justify-start pt-[230.5px] px-[68px] pb-[230px] box-border relative min-h-[739px] shrink-0 max-w-[134%] lg:pl-[34px] lg:pr-[34px] lg:box-border mq825:pt-[150px] mq825:pb-[149px] mq825:box-border">
           <div class="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px]">
             <img class="hidden lg:block absolute top-[0px] left-[800px] w-[341px] h-[361.3px] object-contain mix-blend-color-dodge z-[1]" loading="lazy" alt="" src="/group-299@2x.eb0a3f2a.png">
             <img class="hidden lg:block absolute top-[344.5px] left-[0px] w-[853px] h-[394px] object-cover z-[2]" alt="" src="/1234-1@2x.d11fb50c.png">
           </div>
           <h1 class="m-0 w-full max-w-[717px] relative text-inherit font-semibold font-[inherit] shrink-0 z-[1]
-         text-lg leading-[28px]       
-         sm:text-xl sm:leading-[32px]
-         md:text-2xl md:leading-[35px] 
-         lg:text-3xl lg:leading-[46px] 
-         xl:text-4xl xl:leading-[58px]">
+           text-lg leading-[28px]       
+           sm:text-xl sm:leading-[32px]
+           md:text-2xl md:leading-[35px] 
+           lg:text-3xl lg:leading-[46px] 
+           xl:text-4xl xl:leading-[58px]">
             Getting Started with Fasten Connect
           </h1>
 
@@ -378,7 +384,8 @@
                 <div class="relative text-xl leading-[20px] font-medium text-neutral-100 mq450:text-base mq450:leading-[16px]">
                   Sign Up for Fasten Connect</div>
                 <div class="relative text-base leading-[20px] font-light text-silver-100">Register on our Developer mode
-                  to get started.</div>
+                  to
+                  get started.</div>
               </div>
               <div class="w-[204px] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-3.5">
                 <div class="rounded-xl-5 bg-lavender border-gray-1000 border-[0.3px] border-solid flex flex-col items-center justify-center py-2.5 px-2">
@@ -387,7 +394,8 @@
                 <div class="relative text-xl leading-[20px] font-medium text-neutral-100 inline-block min-w-[123px] mq450:text-base mq450:leading-[16px]">
                   Get API Keys</div>
                 <div class="relative text-base leading-[20px] font-light text-silver-100">Access your credentials and
-                  connect to our endpoint directory.</div>
+                  connect
+                  to our endpoint directory.</div>
               </div>
               <div class="flex flex-row items-center justify-center flex-1">
                 <div class="flex-1 flex flex-col items-start justify-start gap-3.5">
@@ -419,15 +427,17 @@
 
 
 
-    <section class=" mt-14 self-stretch flex flex-row items-start justify-start pt-0 pb-[130px] pl-[30px] pr-8 box-border max-w-full shrink-0 text-left text-36xl-8 text-black font-website-body-body-large-regular lg:pb-[55px] lg:box-border mq450:pb-9 mq450:box-border mq1400:pb-[84px] mq1400:box-border ml-[10px]">
+
+
+    <section class=" lg:mt-14 self-stretch flex flex-row items-start justify-start pt-0 pb-[130px] pl-[30px] pr-8 box-border max-w-full shrink-0 text-left text-36xl-8 text-black font-website-body-body-large-regular lg:pb-[55px] lg:box-border mq450:pb-9 mq450:box-border mq1400:pb-[84px] mq1400:box-border ml-[10px] mt-[-40px]">
       <div class="flex-1 flex flex-col items-end justify-start gap-[100px] max-w-full mq450:gap-[25px] mq825:gap-[50px]">
         <div class="self-stretch flex flex-row items-start justify-center py-0 pl-[22px] pr-5 box-border max-w-full text-center">
           <div class="w-[1045px] flex flex-col items-center justify-start gap-[50px] max-w-full mq825:gap-[25px]">
             <div class="self-stretch flex flex-col items-center justify-start gap-[60px] lg:gap-[30px] mt-16">
-              <div class="self-stretch relative tracking-[-0.02em] md:text-33xl text-[30px] leading-[62px] font-semibold ">
+              <div class="self-stretch relative lg:tracking-[-0.02em] md:text-33xl lg:text-[30px] leading-[62px] font-semibold text-4xl-6">
                 Why Fasten Connect?
               </div>
-              <div class="self-stretch flex flex-row items-center justify-center flex-wrap content-start pt-0 px-0 pb-0 gap-x-[86px] gap-y-[50px] text-left text-lg text-darkslategray-300 lg:gap-[43px] mq825:gap-[21px] lg:ml-10">
+              <div class="self-stretch flex flex-row items-center justify-center flex-wrap content-start pt-0 px-0 pb-0 gap-x-[86px] gap-y-[50px] text-left text-lg text-darkslategray-300 lg:gap-[43px] mq825:gap-[21px] lg:ml-10 mt-[-40px]">
                 <div class="w-[291px] flex flex-col items-center justify-start py-0 pl-4 pr-[15px] box-border gap-2">
                   <div class="flex flex-col items-center justify-start gap-3.5">
                     <img class="w-11 h-[44.7px] relative rounded-9xs-3 overflow-hidden shrink-0" loading="lazy" alt="" src="/frame-1707480585.cc8d43b4.svg">

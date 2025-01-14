@@ -409,6 +409,10 @@
   z-index: 2;
 }
 
+.z-\[1000\] {
+  z-index: 1000;
+}
+
 .float-start {
   float: inline-start;
 }
@@ -4768,6 +4772,10 @@ body {
 }
 
 @media (width >= 640px) {
+  .sm\:visible {
+    visibility: visible;
+  }
+
   .sm\:left-\[20px\] {
     left: 20px;
   }
@@ -5236,6 +5244,14 @@ body {
     margin-top: 20px;
   }
 
+  .lg\:mt-0 {
+    margin-top: 0;
+  }
+
+  .lg\:mt-14 {
+    margin-top: 3.5rem;
+  }
+
   .lg\:box-border {
     box-sizing: border-box;
   }
@@ -5479,6 +5495,10 @@ body {
 
   .lg\:leading-\[80px\] {
     line-height: 80px;
+  }
+
+  .lg\:tracking-\[-0\.02em\] {
+    letter-spacing: -.02em;
   }
 }
 
